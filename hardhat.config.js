@@ -5,8 +5,7 @@ module.exports = {
   solidity: "0.8.19",
   networks: {
     hardhat: {},
-  
-  alfajores: {
+    alfajores: {
     url: "https://alfajores-forno.celo-testnet.org",
     accounts: {
       mnemonic: process.env.MNEMONIC,
