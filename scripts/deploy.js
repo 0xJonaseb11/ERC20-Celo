@@ -1,7 +1,7 @@
-const { ethers } = require("hardhat";
-const dotenv = dotenv.config();
+const { ethers } = require("hardhat");
+dotenv.config();
 
-const main = async () =>{
+const main = async () => {
 
   const PepeToken = await ethers.getContractFactory("PepeToken");
   const pepToken = await PepeToken.deploy();
