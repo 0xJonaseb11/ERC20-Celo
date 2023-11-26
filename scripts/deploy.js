@@ -1,5 +1,5 @@
 const { ethers } = require("hardhat");
-dotenv.config();
+require("dotenv").config();
 
 const main = async () => {
 
