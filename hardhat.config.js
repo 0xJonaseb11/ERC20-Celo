@@ -9,8 +9,9 @@ module.exports = {
     hardhat: {},
     alfajores: {
     url: "https://alfajores-forno.celo-testnet.org",
-    accounts:[`0X${process.env.MNEMONIC}`],
+    accounts:[`0X${process.env.PRIVATE_KEY}`],
     chainId: 44787,
    },
-  },
-};
+  } 
+}  
+
